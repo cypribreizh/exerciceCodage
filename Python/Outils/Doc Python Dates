@@ -1,0 +1,18 @@
+
+
+
+class datetime.date
+	An idealized naive date, assuming the current Gregorian calendar always was
+	and always will be, in effect. Attributs : year, month, and day
+
+class datetime.time
+	An idealized time, independant of any particular day, assuming that every
+	day has exactly 24*60*60 seconds (no notion of "leap seconds" here)
+	Attributs : hour, minute, second, microsecond, tzinfo
+
+class datetime.datetime
+	A combinaison of a date and a time
+
+class datetime.timedelta
+	A duration expressing the difference between two date, time or datetime
+	instances to microsecond resolution.

@@ -1,0 +1,32 @@
+
+
+Classe : plan de construction, genre (ex : Humain)
+Objet  : Instance d'une classe (ex : Julien, est un humain)
+Attribut : Variable de classe (prénom, age, sexe, taille, poids...)
+
+
+Méthode			: fonction sur une instance (objet)
+Méthode de classe	: fonction sur une classe
+Méthode statique	: fonction indépendante mais "liée" à une classe
+
+
+Une méthode standard agit sur un "self"
+
+Une méthode de classe possède cls comme premier paramètre.
+
+Une méthode statique est définie dans la classe mais n'est pas liée à un objet (ou non directement)
+
+
+Pour fonctionner, une méthode de classe a besoin d'autre chose que son cls.
+Elle doit être stockée dans une variable dans laquelle on précise qu'elle est une méthode de classe
+
+Ex : def changer_planete(suite de sa définition...)
+
+     changer_planete = classmethod(changer_planete)
+
+
+Un fonctionnement similaire existe pour les méthodes statiques
+
+Ex : def definitionDico
+
+     definitionDico = staticmethod(definitionDico)
