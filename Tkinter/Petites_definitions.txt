@@ -1,0 +1,16 @@
+Tkinter (pour Tool kit interface) est une boîte à outils d'interface graphique pour Python.
+
+Une fenêtre est reconnaissable à son affectation "= Tk()"
+
+
+widget : contraction de l'anglais windows gadget (gadget fenêtre). Les widgets sont tous les objets graphiques que l'on peut insérer dans une interface (fenêtre). Les principaux sont :
+
+    Les boutons : Button (pour commander une action)
+
+    Les labels : Label (pour insérer un texte)
+
+    Les zones de saisie : Entry (pour permettre l'entrée d'une donnée)
+
+    Les canevas : Canvas (pour insérer des dessins)
+
+Chaque widget a des propriétés et des méthodes qui permettent de régler son apparence et les interactions avec l'utilisateur.

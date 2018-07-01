@@ -1,0 +1,7 @@
+https://fr.wikibooks.org/wiki/Programmation_Python/Tkinter
+
+https://openclassrooms.com/courses/apprenez-a-programmer-en-python/des-interfaces-graphiques-avec-tkinter
+
+https://wiki.python.org/moin/TkInter
+
+http://apprendre-python.com/page-tkinter-interface-graphique-python-tutoriel
