@@ -1,0 +1,17 @@
+
+
+
+	JeuDeNim sera une classe (un mode de construction)
+	Je sais que "JeuDeNim" n'est pas une classe classique (contrairement à  "Animal" ou "Véhicule"),
+	mais comme on veut simuler le jeu des allumettes, on ne va pas se compliquer la vie.
+
+	(de toute façon, en POO, sans classe, rien ne marche,les objets devant appartenir à une classe).
+
+
+	Pour les instances, les allumettes et les joueurs seront des objets gérés par la classe JeuDeNim.
+
+
+	Pour les attributs, les allumettes auront "nbAllumettes" et les 2 joueurs seront partagés entre 
+	"joueurCourant" et "joueurSuivant" selon à qui c'est au tour de jouer
+
+	
