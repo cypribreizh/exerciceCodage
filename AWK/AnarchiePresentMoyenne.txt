@@ -1,4 +1,0 @@
-Laetitia     17        14
-Johnny    13       12
-ChuckNorris    978      958
-Loanna       0       5
