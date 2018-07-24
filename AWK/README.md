@@ -20,4 +20,11 @@ Exemple d'utilisation de la notion de BEGIN/END
 
 `awk -f progBeginEnd.AWK exempleSimple_BeginEnd.txt`
 
+## Exercice 1.9
+
+Exécution de l'exercice 1.9
+Il compte les absences de plusieurs étudiants et il calcule les moyennes
+de différents contrôles.
+
+awk -f Exo1.9_version_presque_entièrement_achevée.AWK exo_1'9_2.txt
 

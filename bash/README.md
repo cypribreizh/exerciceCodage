@@ -44,3 +44,7 @@ Le resultat est 3
 
 ./exercice5.sh 7 x 4
 Le resultat est 28
+
+## hello
+
+Un simple "Hello world"
