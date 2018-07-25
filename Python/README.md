@@ -157,3 +157,8 @@ Il est à noter que certains fichiers ne sont pas classés dans un dossier. En v
 	-> randomPoeme			: Tentative de créer un poème aléatoire avec l'aide de la POO
 
 	-> spyder_crash			: FICHIER TEXTE contenant le résultat d'un message d'erreur sur mon terminal
+
+
+
+(Note : Mon dossier Tkinter était historiquement un dossier indépendant de mon dossier Python. Ce README sera adapté en 
+conséquence dans le futur.)
