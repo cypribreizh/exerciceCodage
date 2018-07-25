@@ -1,0 +1,7 @@
+
+
+Bonjour. Ceci est un petit fichier provisoire créé
+
+pour comprendre comment GitHub réagit face à au
+
+déplacement d'un fichier.
