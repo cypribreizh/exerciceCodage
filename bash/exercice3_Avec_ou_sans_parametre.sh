@@ -36,11 +36,5 @@ read note
 Appreciation $note
 fi
 
-# Ne tenez pas trop compte des commentaires ci-dessous (quand je débutais sur Bash, cet exercice m'a fait voir de toutes les couleurs).
 
-
-# Satané "opérateur unaire attendu". Sans lui, la méthode "classique" marche, mais en voulant remplacer les -lt et les -ge
-# par des < et des >=, ça a empiré la situation ! Fluuuuuute !! (pour ne pas dire autre chose)
-# Vraiment Bash, tu sais être génial, tu sais...
-#(Tout le monde a le droit de "péter un cable" à un moment ou à un autre...)
 

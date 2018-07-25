@@ -12,7 +12,7 @@ Présentation et calcul d'une moyenne
 
 Présentation spéficfique et formattage
 
-`awk -f formatage_Presentation_bordelique.AWK APresentation_bordelique.txt`
+`awk -f formatage_Presentation_anarchique.AWK formatage_Presentation_anarchique.txt`
 
 ## Exercice 3 : Begin et End
 

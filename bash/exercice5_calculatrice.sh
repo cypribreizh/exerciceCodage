@@ -47,8 +47,3 @@ else
 fi
 
 
-#La réponse de mon terminal m'est incompréhensible :
-#ligne 18: ((: + = +  : erreur de syntaxe : opérande attendue (le symbole erroné est "= + ")
-#Déjà, c'est quoi ces symboles bizarres ((: + = +  qui ne se trouvent pas dans mon script ?
-#Ensuite, c'est = "+", non "= +" !! (Mais pour mon ordi, c'est du pareil au même...)
-#Satané Bash, t'es vraiment sympa !
