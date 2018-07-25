@@ -1,7 +1,0 @@
-
-
-Bonjour. Ceci est un petit fichier provisoire créé
-
-pour comprendre comment GitHub réagit face à au
-
-changement de nom d'un fichier.
