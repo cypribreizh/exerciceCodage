@@ -1,30 +1,42 @@
 # Exercices AWK
 
-Ce repertoire contient un certain nombre d'exerices AWK
+Ce repertoire contient les informations sur actuellement 4 exerices AWK.
+
 
 ## Exercice 1 : Bulletin scolaire
 
-Présentation et calcul d'une moyenne
+Calcul des moyennes de 4 élèves.
 
-`awk -f calcul_moyenne_bulletin.AWK bulletin_scolaire.txt`
+`awk -f 01_bulletins.AWK 01_bulletins_data.txt`
+
+
 
 ## Exercice 2 : Formatage d'une présentation anarchique
 
-Présentation spéficfique et formattage
+Cet exercice est similaire au précédent, mais on ajoute un formatage
+des données permettant au tableau d'être interprétable par l'ordinateur.
 
-`awk -f formatage_Presentation_anarchique.AWK formatage_Presentation_anarchique.txt`
+`awk -f 02_formatage.AWK 02_formatage_data.txt`
+
+
 
 ## Exercice 3 : Begin et End
 
 Exemple d'utilisation de la notion de BEGIN/END
 
-`awk -f progBeginEnd.AWK exempleSimple_BeginEnd.txt`
+`awk -f 03_BeginEnd.AWK 03_BeginEnd_data.txt`
 
-## Exercice 1.9
 
-Exécution de l'exercice 1.9
-Il compte les absences de plusieurs étudiants et il calcule les moyennes
-de différents contrôles.
 
-awk -f Exo1.9_version_presque_entièrement_achevée.AWK exo_1'9_2.txt
+## Exercice 4 : Calcul des moyennes et des abscences
 
+Les lignes représentes les données personnelles des 5 étudiants durant
+les 6 contrôles.
+
+Par conséquent, les colonnes $3 à $8 représentent les données pour chaque
+contrôle.
+
+Le programme comptabilise les absences pour chacun des étudiants. 
+Ensuite, il calcule les moyennes (par colonnes) pour les différents contrôles.
+
+`awk -f 04_Moyenne&Abscences.AWK 04_Moyenne&Abscences_data.txt`
