@@ -7,7 +7,7 @@ Saisissez plusieurs notes.
 
 Pour 'quitter' (cesser la prise de notes), veuillez taper q ou une note négative.
 
-Une fois le programme 'quitté', le programme comptera le nombre des notes saisies et calculera leur moyenne.
+Avant la fin du programme, l'ordinateur comptera le nombre des notes saisies et calculera leur moyenne.
 
 Ex : vous tapez 13, 14 et 15. Si vous tapez q ou une note négative, le programme vous calculera la moyenne 14.
 """
@@ -50,7 +50,7 @@ while true
 do
 	write_a_note()
 
-	if [ $note == "q" ]
+	if [ $note == "q" ] 
 	then
 		break
 	fi
@@ -75,7 +75,7 @@ then
 	moyenne=$(($somme / $nbNote))
 	echo "La moyenne est de $moyenne pour $nbNote notes"
 else
-	echo "Division par 0 impossible"
+	echo "Il y a eu une division par zéro"
 fi
 
 

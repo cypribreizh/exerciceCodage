@@ -29,8 +29,7 @@ then
 	then
 		echo "Passable"
 	elif [ $note -lt 10 ] && [ $note -ge 0 ]
-	then
-		echo "Insuffisant"
+	then	echo "Insuffisant"
 else
 	echo "Valeur incorrecte"
 fi

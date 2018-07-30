@@ -1,8 +1,19 @@
 #!/bin/bash
 
 """
-Cet exercice marche avec ou sans paramètre.
-(si vous ne mettez pas une note comme premier paramètre, le programme vous demandera une saisie)
+Auteur : Cyril PRIGENT
+
+Cet exercice est similaire à l'exercice 1 (notation d'élève).
+
+La principale différence est qu'il fonctionne avec ou sans précision de paramètre.
+
+Ex : ./exercice3_Avec_ou_sans_parametre.sh 15    -----> Le programme vous répondra 'Bien'.
+
+Et si vous décidez de ne pas mettre de paramètre :
+
+./exercice3_Avec_ou_sans_parametre.sh		 -----> Le programme vous demandera de saisir 
+							une note avant de répondre.
+
 """
 
 Appreciation ()

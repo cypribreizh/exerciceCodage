@@ -1,15 +1,21 @@
 #!/bin/bash
 
-# permet de faire une calculatrice
+"""
+Ce programme fonctionne comme une calculatrice.
 
-# ./exercice5.sh 7 + 4
-# $0 $1 $2 $3
-# Le resultat est 11
-# ./exercice5.sh 7 - 4
-# Le resultat est 3
-# ./exercice5.sh 7 x 4
-# Le resultat est 28
+Pour fonctionner, il a besoin de deux nombres ($1 et $3) et d'un opérateur $2(+,-,x,/).
 
+Voici quelques exemples :
+
+./exercice5.sh 7 + 4
+Le resultat est 11
+
+./exercice5.sh 7 - 4
+Le resultat est 3
+
+./exercice5.sh 7 x 4
+Le resultat est 28
+"""
 
 # texte introduction
 echo "Bonjour. Ceci est un simulateur de calculatrice. Choisissez deux chiffres, puis un opérande (+,-,x,/) et le programme fera le reste. Evitez tout de même les divisions par zéro..."

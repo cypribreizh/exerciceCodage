@@ -1,4 +1,21 @@
 
+"""
+Auteur : Cyril PRIGENT
+
+Ce programme est un entraînement pour la création d'un menu.
+Trois options s'offrent à vous :
+
+	1) Vérifier l'existance d'un utilisateur
+	     				   L---------> Le programme vous demande de saisir le nom d'un
+						       utilisateur (système) et il vérifie son existence.
+
+	2) Connaître l'IUD d'un utilisateur
+	     				   L---------> Saisissez le nom d'un utilisateur système. S'il existe,
+						       le programme vous donnera son IUD.
+	q) Quitter le menu.
+
+"""
+
 echo "Bonjour, ceci est un menu." 
 
 
@@ -54,10 +71,6 @@ do
 		then
 		Choose_A_User
 		Checking_IUD $chosen_User
-		#if (( $chosen_User in $USERLIST ))
-		# 	cut -d: -f1 /etc/passwd
-		# else
-		# 	echo "Utilisateur inexistant ou non trouvé, donc pas d'UID..."
 	elif (( $optionchoisie == "q" ))
 		then
 		break
