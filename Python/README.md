@@ -116,8 +116,7 @@ catégories (ex : un générateur utilisant de la POO) seront dans plusieurs dos
 
 	-> entrainementPOOrandomPhrase	: (voir dans Générateurs)
 
-	-> JeuDeNim			: Programme qui permet de jouer au "jeu des batonnêts" (similaire à celui
-					  de Fort Boyard)
+	-> JeuDeNim			: Programme qui permet de jouer au "jeu des batonnêts"
 
 	-> POO Commençons par le	: Exercice que j'ai réalisé pour comprendre les mécanismes de la POO
 	   commencement
@@ -145,6 +144,50 @@ catégories (ex : un générateur utilisant de la POO) seront dans plusieurs dos
 
 	-> devinette			: (voir Divers_debuts)
 
+
+## Tkinter
+
+
+	-> Exercice0		:	Exercice tutoriel sur l'usage du module Tkinter où chaque ligne est commentée.
+
+
+	-> Exercice1		:	Exercice dans lequel il faut ouvrir une fenetre de dimension 500x500.
+					Ensuite il faut dessiner un carré rouge de 5px*5px en position (100, 100), 						ainsi qu'un cercle bleu de 20px*20px en position (200, 200).
+
+	-> Exercice2		:	Exercice dans lequel il faut ouvrir une fenètre de dimension 800x600.
+					Ensuite il faut ajouter un champs de texte et un bouton sur la fenetre.
+	
+					On crée une variable counter (entier initialisé à 0).
+					Et lorsque l'on clique sur le bouton, il faut incrémenter counter et 
+					l'afficher dnas le champs de texte.
+
+
+	-> fenetres_modales	:	Entrainement personnel sur les fenêtres modales.
+
+
+	-> Widgets_avances	:	Notes prises en regardant une vidéo Youtube (de la chaîne Formation
+					Video), parlant des widgets suivants :
+
+						-Checkbutton
+						-Radiobutton
+						-Scale
+						-Spinbox
+						-Listbox
+
+					A la fin de la vidéo, il évoquait aussi les différents types de fenêtres modales.
+
+
+	-> positionnement_wid-  :	Notes prise en regardant une autre vidéo de la chaîne Youtube précedemment évoquée.
+	   gets
+
+
+	-> Liens_vers_docu_	:	FICHIER TEXTE contenant quelques adresses de sites de documentation au sujet de Tkinter.
+	   Tkinter
+
+
+	-> Petites_definitions	:	FICHIER TEXTE regroupant les définitions des concepts de base pour débuter dans 
+					l'utilisation du module Tkinter.
+
 ## Hors dossiers
 
 Il est à noter que certains fichiers ne sont pas classés dans un dossier. En voici la liste
@@ -155,6 +198,3 @@ Il est à noter que certains fichiers ne sont pas classés dans un dossier. En v
 	-> spyder_crash			: FICHIER TEXTE contenant le résultat d'un message d'erreur sur mon terminal
 
 
-
-(Note : Mon dossier Tkinter était historiquement un dossier indépendant de mon dossier Python. Ce README sera adapté en 
-conséquence dans le futur.)
