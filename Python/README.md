@@ -116,6 +116,9 @@ catégories (ex : un générateur utilisant de la POO) seront dans plusieurs dos
 
 	-> entrainementPOOrandomPhrase	: (voir dans Générateurs)
 
+	-> JeuDeNim			: Programme qui permet de jouer au "jeu des batonnêts" (similaire à celui
+					  de Fort Boyard)
+
 	-> POO Commençons par le	: Exercice que j'ai réalisé pour comprendre les mécanismes de la POO
 	   commencement
 
