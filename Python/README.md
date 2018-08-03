@@ -116,10 +116,6 @@ catégories (ex : un générateur utilisant de la POO) seront dans plusieurs dos
 
 	-> entrainementPOOrandomPhrase	: (voir dans Générateurs)
 
-	-> HorreurInformatiquePOO	: Ebauche du Jeu de Nim
-
-	-> JeuDeNim			: Version plus aboutie du précédent
-
 	-> POO Commençons par le	: Exercice que j'ai réalisé pour comprendre les mécanismes de la POO
 	   commencement
 
@@ -132,8 +128,6 @@ catégories (ex : un générateur utilisant de la POO) seront dans plusieurs dos
 	-> VehiculesPOO			: Entrainement ayant pour thème les véhicules terrestres
 
 	-> SuiteVehiculePOO		: Suite de l'entrainement précédent, mais avec des véhicules aquatiques et aériens
-
-	-> tentativeJeuDeNim		: Une autre ébauche du Jeu de Nim
 
 
 ## Programmes Input
@@ -152,7 +146,6 @@ catégories (ex : un générateur utilisant de la POO) seront dans plusieurs dos
 
 Il est à noter que certains fichiers ne sont pas classés dans un dossier. En voici la liste
 
-	-> JeuDeNim			: Une version du jeu de Nim
 
 	-> randomPoeme			: Tentative de créer un poème aléatoire avec l'aide de la POO
 
