@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/opt/anaconda3/lib/python3.6/site-packages/spyder/app/mainwindow.py", line 3099, in main
-    mainwindow = run_spyder(app, options, args)
-  File "/opt/anaconda3/lib/python3.6/site-packages/spyder/app/mainwindow.py", line 2999, in run_spyder
-    main = MainWindow(options)
-  File "/opt/anaconda3/lib/python3.6/site-packages/spyder/app/mainwindow.py", line 307, in __init__
-    os.mkdir(programs.TEMPDIR)
-FileExistsError: [Errno 17] Le fichier existe: '/tmp/spyder-cyril'
