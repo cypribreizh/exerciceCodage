@@ -127,6 +127,8 @@ catégories (ex : un générateur utilisant de la POO) seront dans plusieurs dos
 
 	-> randomHuman			: (voir Generateurs)
 
+	-> randomPoeme			: Le programme écrit un poème aléatoire, donc par conséquent fort sybillin
+
 	-> VehiculesPOO			: Entrainement ayant pour thème les véhicules terrestres
 
 	-> SuiteVehiculePOO		: Suite de l'entrainement précédent, mais avec des véhicules aquatiques et aériens
