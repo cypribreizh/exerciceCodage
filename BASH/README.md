@@ -16,7 +16,7 @@ Ex : choisissez 15, le programme vous répondra 'très bien'
 
 ## exercice2_Moyenne_de_notes.sh
 
-Saisissez plusieurs notes. 
+Saisissez plusieurs notes (l'une après l'autre). 
 
 Pour 'quitter' (cesser la prise de notes), veuillez taper q ou une note négative.
 

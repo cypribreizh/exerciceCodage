@@ -1,16 +1,16 @@
 #!/bin/bash
 
-"""
-Auteur : Cyril PRIGENT
 
-Saisissez plusieurs notes. 
+#Auteur : Cyril PRIGENT
 
-Pour 'quitter' (cesser la prise de notes), veuillez taper q ou une note négative.
+#Saisissez plusieurs notes. 
 
-Avant la fin du programme, l'ordinateur comptera le nombre des notes saisies et calculera leur moyenne.
+#Pour 'quitter' (cesser la prise de notes), veuillez taper q ou une note négative.
 
-Ex : vous tapez 13, 14 et 15. Si vous tapez q ou une note négative, le programme vous calculera la moyenne 14.
-"""
+#Avant la fin du programme, l'ordinateur comptera le nombre des notes saisies et calculera leur moyenne.
+
+#Ex : vous tapez 13, 14 et 15. Si vous tapez q ou une note négative, le programme vous calculera la moyenne 14.
+
 
 somme=0
 nbNote=0
@@ -46,11 +46,11 @@ else
 fi
 }
 
-while true
-do
-	write_a_note()
+while true ; do
 
-	if [ $note == "q" ] 
+	write_a_note
+	
+	if [ $note == "q" ] || [ $note -lt 0 ]
 	then
 		break
 	fi
@@ -61,11 +61,6 @@ do
 		nbNote=$(($nbNote + 1))
 	else
 		echo "Nombre invalide"
-	fi
-
-	if [ $note -lt 0 ]
-	then
-		break
 	fi
 done
 
