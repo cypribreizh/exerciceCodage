@@ -39,4 +39,4 @@ contrôle.
 Le programme comptabilise les absences pour chacun des étudiants. 
 Ensuite, il calcule les moyennes (par colonnes) pour les différents contrôles.
 
-`awk -f 04_Moyenne&Abscences.AWK 04_Moyenne&Abscences_data.txt`
+`awk -f 04_Moyenne_Abscences.AWK 04_Moyenne_Abscences_data.txt`
